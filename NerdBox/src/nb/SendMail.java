@@ -43,7 +43,7 @@ String[] cc={};
 String[] bcc={};
 
 SendMail.sendMail("ahmed.bilal@seventechnology.co.uk",
-"Gr911@local",
+"yourpassword",
 "smtp.gmail.com",
 "465",
 "true",
