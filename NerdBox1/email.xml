@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="email" parallel="false" verbose="2" >
+  <test name="emailsend">
+      <classes>
+      <class name="nb.emailtrigger"/>
+       
+           </classes>
+         
+        
+  </test> 
+  </suite>

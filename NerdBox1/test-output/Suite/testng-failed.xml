@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="2" name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="nb.NerdboxJobSubmit">
+        <methods>
+          <include name="AddQuote"/>
+          <include name="setup"/>
+          <include name="AcceptQuote"/>
+          <include name="SubmitQuestions"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- nb.NerdboxJobSubmit -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
