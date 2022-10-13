@@ -34,6 +34,7 @@ public class Google {
 
 		driver.get(baseUrl);
 	}
+	
 
 	@AfterTest
 	public void afterMethod() {
