@@ -30,7 +30,7 @@ public class Google {
 
 		driver=new ChromeDriver();
 
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 
 		driver.get(baseUrl);
 	}
