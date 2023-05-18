@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20435" started-at="2023-05-16T12:05:01Z" finished-at="2023-05-16T12:05:21Z">
+  <suite name="Suite" duration-ms="46094" started-at="2023-05-18T13:31:02Z" finished-at="2023-05-18T13:31:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20435" started-at="2023-05-16T12:05:01Z" finished-at="2023-05-16T12:05:21Z">
+    <test name="Test" duration-ms="46094" started-at="2023-05-18T13:31:02Z" finished-at="2023-05-18T13:31:49Z">
       <class name="BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests@5ec0a365]" name="beforeTest" is-config="true" duration-ms="20414" started-at="2023-05-16T12:05:01Z" finished-at="2023-05-16T12:05:21Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests@5ec0a365]" name="beforeTest" is-config="true" duration-ms="19613" started-at="2023-05-18T13:31:02Z" finished-at="2023-05-18T13:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="LoginScreen()[pri:0, instance:BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests@5ec0a365]" name="LoginScreen" duration-ms="4" started-at="2023-05-16T12:05:21Z" finished-at="2023-05-16T12:05:21Z">
+        <test-method status="PASS" signature="LoginScreen()[pri:0, instance:BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests@5ec0a365]" name="LoginScreen" duration-ms="25933" started-at="2023-05-18T13:31:22Z" finished-at="2023-05-18T13:31:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginScreen -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests@5ec0a365]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-05-16T12:05:21Z" finished-at="2023-05-16T12:05:21Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests@5ec0a365]" name="afterTest" is-config="true" duration-ms="534" started-at="2023-05-18T13:31:48Z" finished-at="2023-05-18T13:31:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- BitBabyGUIAutomation.BitBabyGUIAutomation.bbuitests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
