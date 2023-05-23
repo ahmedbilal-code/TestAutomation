@@ -98,6 +98,20 @@ public class bbuitests {
 		System.out.println("Now going back to login screen again!");
 
 		driver.navigate().back();
+		
+		System.out.println("Entering Username.");
+		driver.findElement(By.xpath("//android.widget.EditText[@index='0' and @resource-id='signin_email']")).click();
+		driver.findElement(By.xpath("//android.widget.EditText[@index='0' and @resource-id='signin_email']")).sendKeys("abc@abc.com");
+		
+		System.out.println("Entering Password.");
+		driver.findElement(By.xpath("//android.widget.EditText[@index='0' and @resource-id='signin_password']")).click();
+		driver.findElement(By.xpath("//android.widget.EditText[@index='0' and @resource-id='signin_password']")).sendKeys("abc");
+		
+		System.out.println("Clicking Signin button.");
+		//driver.findElement(By.xpath("//android.widget.TextView[@index='1' and @text='Sign In']")).click();
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.TextView")).click();
+		System.out.println("Clicked Signin button.");
+		Thread.sleep(7000);
 	}
 
 	@AfterTest
